@@ -1,0 +1,30 @@
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.log
+
+# Env files (never commit real secrets)
+.env
+backend/.env
+frontend/.env
+
+# Raw corpus (can be large) — explain in README how to obtain it
+data/raw_docs/
+data/images/
+
+# Vector stores / Chroma
+backend/data/vector_store/
+backend/data/vector_store_old/
+backend/data/vector_store_backup/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+Thumbs.db
+
+# IDE
+.vscode/
+.idea/
