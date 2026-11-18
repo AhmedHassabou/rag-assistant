@@ -188,16 +188,6 @@ curl -X POST "http://localhost:8000/query-image?question=What%20is%20shown%20in%
 }
 ```
 
-## Evaluation Results
-
-> TODO: paste the evaluation table generated in notebook section 2.6 (question /
-> retrieved source / answer / correct or not), plus a short paragraph on the main
-> failure cases observed and how they were mitigated.
-
-## Screenshots
-
-> TODO: add screenshots of the running Streamlit app (chat view + a query with
-> image upload) here once the app is running end-to-end.
 
 ## Notes on Reproducibility
 
